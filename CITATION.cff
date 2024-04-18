@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  - family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  - family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  - family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  - family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  - family-names: "YOUR_NAME_HERE"
+  given-names: "YOUR_NAME_HERE"
+  
+title: "Exemplo"
+version: 1.0.0
+doi: 10.5281/zenodo.1234 //Não sei oque é
+date-released: 2024-xx-xx
+url: "https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-"
