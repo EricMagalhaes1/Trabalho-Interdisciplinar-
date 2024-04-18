@@ -1,21 +1,34 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  - family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  - family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  - family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  - family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  - family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  
+  - family-names: |
+    given-names: |
+  - family-names: |
+    given-names: |
+  - family-names: |
+    given-names: |
+  - family-names: |
+    given-names: |
+  - family-names: |
+    given-names: |
+  - family-names: |
+    given-names: |
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+
 title: "Exemplo"
+repository-code: "https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-"
+license: 
 version: 1.0.0
 doi: 10.5281/zenodo.1234 //Não sei oque é
 date-released: 2024-xx-xx
-url: "https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-"
