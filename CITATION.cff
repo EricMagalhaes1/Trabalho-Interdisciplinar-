@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: |
-    given-names: |
-  - family-names: |
-    given-names: |
-  - family-names: |
-    given-names: |
-  - family-names: |
-    given-names: |
-  - family-names: |
-    given-names: |
-  - family-names: |
-    given-names: |
+  - family-names: Magalhaes Graca Silva
+    given-names: Eric
+  - family-names: Silva Faria
+    given-names: Felipe
+  - family-names: Mafort Starling
+    given-names: Guilherme
+  - family-names: Carlos Lopes Lellis
+    given-names: Jean
+  - family-names: Arantes Coimbra
+    given-names: Matheus
+  - family-names: Henrique Debs Rabelo
+    given-names: Pedro
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
