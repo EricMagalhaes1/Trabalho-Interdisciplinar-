@@ -4,16 +4,18 @@
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1]
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+* Eric Magalhaes Graca Silva
+* Felipe Silva Faria
+* Guilherme Mafort Starling
+* Jean Carlos Lopes Lellis
+* Matheus Arantes Coimbra
+* Pedro Henrique Debs Rabelo
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
-* [Nome completo do professor 3]
+* Carlos Alberto Marques Pietrobon
+* Ilo Amy Saldanha Rivero
+* Luciana Mara Freitas Diniz
 
 ## Instruções de utilização
 
