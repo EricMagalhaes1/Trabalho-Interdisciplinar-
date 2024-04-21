@@ -56,23 +56,7 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+ O problema que nossa aplicação visa resolver é a dificuldade em criar e gerenciar rotinas eficientes. Esse problema é comum em muitos cenários, desde organizações que lidam com processos complexos até indivíduos que desejam organizar melhor seu tempo e tarefas diárias. A dificuldade em criar rotinas eficientes pode surgir da sobrecarga de informações, falta de organização pessoal ou dificuldade em priorizar tarefas. Essa aplicação visa proporcionar uma solução abrangente para a criação, gerenciamento e otimização de rotinas, seja no ambiente corporativo ou para uso pessoal. Ao oferecer recursos como definição de tarefas, agendamento, lembretes pretendemos ajudar os usuários a superarem as dificuldades relacionadas à organização e execução de suas atividades diárias.
 
 ## Objetivos
 
@@ -88,19 +72,7 @@ Objetivos Específicos:
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+ A motivação para criar um software sobre organização de rotinas é devido à crescente demanda por ferramentas que ajudem as pessoas e empresas a lidar com a complexidade do mundo moderno. Com a vida cada vez mais agitada e a necessidade de equilibrar múltiplas responsabilidades, há uma oportunidade para oferecer soluções inovadoras que simplifiquem a gestão de tarefas, melhorem a produtividade e promovam o bem-estar dos usuários.
 
 ## Público-Alvo
 
