@@ -295,7 +295,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |Processo de Design Thinkgin  | Miro |  [Miro](https://miro.com/app/board/uXjVKUWmBIc=/) | 
 |Repositório de código | GitHub | [GitHub](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-) | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | [figma](https://www.figma.com/file/u00fba8uNpozvfNuAMVv6R/Untitled?type=design&node-id=0%3A1&mode=design&t=psjXnv9e5CwXYq3v-1) | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
