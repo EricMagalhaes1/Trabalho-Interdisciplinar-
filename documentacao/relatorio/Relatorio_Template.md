@@ -206,8 +206,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/assets/108881804/682411ac-36a2-4a48-8f89-0b0c63820f92)
-
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Wireframe.png)
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Screenshot%20(4).png)
 
 
 # Metodologia
