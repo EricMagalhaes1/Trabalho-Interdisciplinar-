@@ -86,9 +86,9 @@ Abaixo iremos apresentar as técnicas e ferramentas utilizadas na concepção do
 
 ## Personas e Mapas de Empatia
 
-[![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20Isabela.jpg)]
-[![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20%20Eduardo.jpg)]
-[![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20Maria.jpg)]
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20Isabela.jpg)
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20%20Eduardo.jpg)
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Persona%20-%20Maria.jpg)
 
 ## Histórias de Usuários
 
@@ -165,27 +165,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Screenshot%20(4).png)
 
 
 ## Wireframes
 
 ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Wireframe.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Screenshot%20(4).png)
 
 
 # Metodologia
@@ -194,13 +179,14 @@ Nesse projeto utilizamos da metodologia ágil, como o Scrum e o Design Thinking,
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+| Nome                      | Função          |
+|---------------------------|-----------------|
+| Eric Magalhaes Graca Silva | Etapa de entendimento |
+| Felipe Silva Faria | Documentação/Etapa de Exploração |
+| Guilherme Mafort Starling | Etapa de entendimento/Wireframe |
+| Jean Carlos Lopes Lellis | Etapa de entendimento/PPT |
+| Matheus Arantes Coimbra | Documentação/Etapa de Exploração |
+| Pedro Henrique Debs Rabelo | Etapa de exploração |
 
 
 ## Ferramentas
