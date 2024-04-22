@@ -157,18 +157,53 @@ A seguir, será apresentado o desenvolvimento do **User Flow** e **Wireframe** d
 
 ## Wireframes
 
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_1.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_2b.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_3.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_4.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_5.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_6.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_7.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_8.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_9.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_10.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_11.png)
-![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_12.png)
+> **Tela de Login**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_1.png)
+>
+> **Tela de Registro**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_2b.png)
+>
+> **Tela Principal**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_4.png)
+>
+> **Tela Semanal**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_3.png)
+>
+> **Modal de Tarefa**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_5.png)
+>
+> **Tela Mensal**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_6.png)
+>
+> **Tela de Conta**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_7.png)
+>
+> **Tela de Imagen**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_8.png)
+>
+> **Tela de Trocar Nome**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_9.png)
+>
+> **Tela de Trocar email**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_10.png)
+>
+> **Esqueci Minha Senha**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_11.png)
+>
+> **Tela de Logoff**
+> 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/Desktop_12.png)
 
 
 # Metodologia
