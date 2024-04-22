@@ -109,11 +109,8 @@ Pessoas de 18 a 30 anos, estudantes e/ou trabalhadores, que por possuirem dficul
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Abaixo iremos apresentar as técnicas e ferramentas utilizadas na concepção do projeto visando suas especificações para solucionarmos nosso problema. 
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
 
