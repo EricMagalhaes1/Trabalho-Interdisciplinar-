@@ -5,19 +5,19 @@ let json = `{
         "nome": "Acordar",
         "inicio": "05:00",
         "fim": "05:00",
-        "diasDaSemana": [0, 1, 2, 3, 4]
+        "diasDaSemana": [1, 2, 3, 4, 5]
         },
         {
         "nome": "Faculdade",
         "inicio": "07:00",
         "fim": "12:20",
-        "diasDaSemana": [0, 1, 2, 3, 4]
+        "diasDaSemana": [1, 2, 3, 4, 5]
         },
         {
         "nome": "Acordar",
         "inicio": "09:00",
         "fim": "09:00",
-        "diasDaSemana": [5, 6]
+        "diasDaSemana": [0, 6]
         }
     ],
     "calendario": [
@@ -40,6 +40,17 @@ let rotina = JSON.parse(json);
 
 let lista = document.getElementById("lista");
 let input = document.getElementById("data");
+let titulo = document.getElementById("titulo");
+
+// cria uma data apartir de uma string "dd-mm-yyyy" no fuso horário local
+function stringParaDate(s) {
+    let b = s.split(/\D/);
+    return new Date(b[0], b[1]-1, b[2], 0, 0, 0);
+}
+
+function mesmaData(data1, data2) {
+    return Math.abs(data1.getTime() - data2.getTime()) < 86400000;
+}
 
 function mostrarLista(data) {
     lista.innerHTML = "";
@@ -55,13 +66,9 @@ function mostrarLista(data) {
 
     for (let i = 0; i < rotina.calendario.length; i++) {
         let tarefa = rotina.calendario[i];
-        let tarefaData = new Date(tarefa.data);
+        let tarefaData = stringParaDate(tarefa.data);
 
-        if (
-            tarefaData.getFullYear() === data.getFullYear() &&
-            tarefaData.getMonth() === data.getMonth() &&
-            tarefaData.getDate() === data.getDate()
-        )
+        if (mesmaData(tarefaData, data))
             tarefas.push(tarefa);
 
     }
@@ -73,6 +80,7 @@ function mostrarLista(data) {
     for (let i = 0; i < tarefas.length; i++) {
         let tarefa = tarefas[i];
         let li = document.createElement("li");
+        li.classList.add("list-group-item");
         if (tarefa.inicio === tarefa.fim)
             li.innerText = `${tarefa.inicio}: ${tarefa.nome}`;
         else
@@ -80,10 +88,17 @@ function mostrarLista(data) {
 
         lista.appendChild(li);
     }
+
+    let h = new Date();
+
+    if (mesmaData(h, data))
+        titulo.innerText = "Tarefas de hoje";
+    else
+        titulo.innerText = "Tarefas de " + data.toLocaleDateString();
 }
 
-input.addEventListener("change", () => {
-    mostrarLista(new Date(input.value));
+document.getElementById("aplicar-data").addEventListener('click', () => {
+    mostrarLista(stringParaDate(data.value));
 });
 
 mostrarLista(new Date());
