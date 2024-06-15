@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Customização</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+  <h1>Customização</h1>
+  <label>Cor:</label>
+  <input type="color" id="cor"/>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/customizacao.js"></script>
+  <script>
+	let input_cor = document.getElementById("cor");
+	input_cor.addEventListener("change", () => {
+		localStorage.setItem("cor", input_cor.value);
+		colorir();
+	});
+  </script>
+  </div>
+</body>
+</html>
