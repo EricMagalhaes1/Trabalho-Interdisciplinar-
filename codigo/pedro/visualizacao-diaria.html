@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Visualização diária</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="modal" tabindex="-1" id="seletor-data">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Alterar dia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <input id="data" type="date"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="aplicar-data">Aplicar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  <h1 id="titulo"></h1>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#seletor-data">
+    trocar data
+  </button>
+  <ul id="lista" class="list-group"></ul>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/visualizacao-diaria.js"></script>
+  <script src="assets/js/customizacao.js"></script>
+  </div>
+</body>
+</html>
