@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #535353;
+}
+
+.box {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border-style: hidden;
+    width: 500px;
+    height: 600px;
+    background: #8f8f8f;
+}
+
+#taskname {
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 25px;
+    width: 50%;
+    cursor: text;
+    text-align: center;
+}
+
+#descrip {
+    margin-top: 2%;
+    margin-left: 6%;
+    height: 20px;
+    width: 50%;
+    cursor: text;
+}
+
+#detail {
+    border: 1px solid;
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 150px;
+    width: 75%;
+    cursor: text;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+#week {
+    margin-top: 5%;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+#hour {
+    margin-top: 2%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#buttons {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+input {
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    height: 20px;
+    width: 25%;
+    border-radius: 5px;
+    border-style: hidden;
+}
