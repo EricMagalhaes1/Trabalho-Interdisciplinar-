@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotina de Sono</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rotina de Sono</h1>
+        <form id="sleepForm">
+            <label for="dormir" class="horario">Qual horário você geralmente dorme?</label>
+            <input type="time" id="dormir" name="dormir"><br><br>
+
+            <label for="acordar" class="horario">Qual horário você geralmente acorda?</label>
+            <input type="time" id="acordar" name="acordar"><br><br>
+
+            <label>Você segue essa rotina de sono durante quais dias da semana?</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="segunda" name="dias"><span class="checkmark"></span></label>
+            <label for="segunda" class="dias">Segunda</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="terca" name="dias"><span class="checkmark"></span></label>
+            <label for="terca" class="dias">Terça</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="quarta" name="dias"><span class="checkmark"></span></label>
+            <label for="quarta" class="dias">Quarta</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="quinta" name="dias"><span class="checkmark"></span></label>
+            <label for="quinta" class="dias">Quinta</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="sexta" name="dias"><span class="checkmark"></span></label>
+            <label for="sexta" class="dias">Sexta</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="sabado" name="dias"><span class="checkmark"></span></label>
+            <label for="sabado" class="dias">Sábado</label><br>
+            <label class="custom-checkbox"><input type="checkbox" id="domingo" name="dias"><span class="checkmark"></span></label>
+            <label for="domingo" class="dias">Domingo</label><br><br>
+
+            <label>Você geralmente tem sono leve ou profundo?</label><br>
+            <label class="custom-radio">Leve
+                <input type="radio" id="leve" name="estado" value="leve">
+                <span class="checkmark-radio"></span>
+            </label><br>
+            <label class="custom-radio">Profundo
+                <input type="radio" id="profundo" name="estado" value="profundo">
+                <span class="checkmark-radio"></span>
+            </label><br><br>
+
+            <label>Você tem interrupções em sua noite de sono? Se sim quantas?</label><br>
+            <label class="custom-radio">Sim
+                <input type="radio" id="sim" name="interrupcoes" value="sim" onclick="showInput('quantidade','tempo')">
+                <span class="checkmark-radio"></span>
+            </label>
+            <div class="addInfo">
+                <input type="text" id="quantidade" name="quantidade" placeholder="Quantas?" class="hidden">
+            </div>
+            <br>
+            <label class="custom-radio">Não
+                <input type="radio" id="nao" name="interrupcoes" value="nao" onclick="showInput()">
+                <span class="checkmark-radio"></span>
+            </label>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
