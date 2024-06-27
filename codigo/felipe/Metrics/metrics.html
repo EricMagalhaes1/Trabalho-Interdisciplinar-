@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página</title>
+    <!-- Adicione o link para o Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="barra-navegacao navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 mb-5">
+      <div class="rolha row h-100">
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center"
+          style="height: 250px"
+        >
+          <canvas id="myChart" width="100" height="80"></canvas>
+        </div>
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center"
+          style="height: 250px"
+        >
+          <canvas id="myPieChart" width="100" height="100"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 10px"></div>
+
+    <div class="container mt-5 mb-4">
+      <div
+        class="row d-flex align-items-center justify-content-center text-center"
+      >
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card border-warning rounded-3">
+            <div class="card-body">
+              <h6 class="card-title fw-bold">Tarefas Concluídas</h6>
+              <h3 id="concluidas" class="card-text fs-3">51</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mb-3 mb-sm-0">
+          <div class="card border-warning rounded-3">
+            <div class="card-body">
+              <h6 class="card-title fw-bold">Tarefas a Fazer</h6>
+              <h3 id="aFazer" class="card-text fs-3">30</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card border-warning rounded-3">
+            <div class="card-body">
+              <h6 class="card-title fw-bold">Tarefas Atrasadas</h6>
+              <h3 id="atrasadas" class="card-text fs-3">51</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mb-5 d-flex align-items-center justify-content-center text-center"
+    >
+      <button
+        class="btn"
+        onclick="location.reload()"
+        style="background-color: orange; color: #fff"
+      >
+        Recarrega os Dados
+      </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
