@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurCa</title>
+    <link rel="icon" href="assets/calendar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <main>
+        <button data-event-target="#event">Abrir Lembrete</button>
+        <div class="event" id="event">
+            <div class="event-header">
+                <button data-edit-button class="edit-button">&#9881;</button>
+                <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="event-body">
+                <form id="noteForm" action="script.js" method="post">
+                    <div class="forms">
+                        <input id="notename" type="text" class="name-note" name="note-names" placeholder="Nome do Lembrete" maxlength="20" required>
+                        <textarea id="notedescription" class="descrip-note" name="note-descriptions" rows="4" cols="50" placeholder="Descrição" maxlength="220" required></textarea>
+                    </div>
+                    <div class="times">
+                        <div class="time-input">
+                            <label for="notestart">Inicio:</label> <input id="notestart" type="time" name="note-time-stats" class="hour">
+                        </div>
+                        <div class="time-input">
+                            <label for="noteend">Fim:</label> <input id="noteend" type="time" name="note-time-ends" class="hour">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="notesubmit" class="Save" type="submit" title="Salvar">&#10003;</button>
+                        <button id="notedelete" class="Delete" type="reset" title="Deletar">&times;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="overlay"></div>
+    </main>
+</body>
+
+</html>

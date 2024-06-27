@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>OurCa</title>
+
+</head>
+
+<body>
+
+    <form class="box">
+        <div>
+            <input type="text" id="taskname" name="tname" placeholder="Nome da Tarefa" maxlength="20" required>
+            <br>
+            <input type="text" id="descrip" name="description" placeholder="Descrição" maxlength="100" required>
+            <br>
+            <textarea id="detail" name="detail" placeholder="Detalhamento" ></textarea>
+        </div>
+
+        <div id="week">
+            <input type="checkbox" id="domingo" name="domingo">
+            <label for="domingo">Dom</label>
+
+            <input type="checkbox" id="segunda" name="segunda">
+            <label for="segunda">Seg</label>
+
+            <input type="checkbox" id="terca" name="terca">
+            <label for="terca">Ter</label>
+
+            <input type="checkbox" id="quarta" name="quarta">
+            <label for="quarta">Qua</label>
+
+            <input type="checkbox" id="quinta" name="quinta">
+            <label for="quinta">Qui</label>
+
+            <input type="checkbox" id="sexta" name="sexta">
+            <label for="sexta">Sex</label>
+
+            <input type="checkbox" id="sabado" name="sabado">
+            <label for="sabado">Sab</label>
+        </div>
+
+        <div id="hour">
+            <label for="tstart">Inicio:</label><br>
+            <input type="time" id="tstart" name="tstart">
+            <br>
+            <br>
+            <label for="tend">Fim:</label><br>
+            <input type="time" id="tend" name="tend">
+        </div>
+
+        <div id="buttons">
+            <button>Salvar</button>
+
+            <button>Cancelar</button>
+            <br>
+            <input type="reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
