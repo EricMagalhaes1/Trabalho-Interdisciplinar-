@@ -15,18 +15,18 @@ authors:
     given-names: Pedro
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Alberto Marques Pietrobon
+    given-names: Carlos
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Amy Saldanha Rivero
+    given-names: Ilo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Mara Freitas Diniz
+    given-names: Luciana
 
-title: "Exemplo"
+title: "OurCa"
 repository-code: "https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-"
 license: 
 version: 1.0.0
