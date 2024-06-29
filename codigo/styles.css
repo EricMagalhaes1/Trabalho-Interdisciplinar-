@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff8c42;
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ffa756;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  background-color: white;
+  color: #ff8c42;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.features,
+.about {
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.features .container,
+.about .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features h2,
+.about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ff8c42;
+}
+
+.features .feature {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
