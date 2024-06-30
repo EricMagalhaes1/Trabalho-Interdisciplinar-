@@ -19,8 +19,9 @@ h1 {
 }
 
 .wrapper {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 
 .main {
@@ -37,7 +38,7 @@ h1 {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #4B0082;
+    background-color: orange;
     display: flex;
     flex-direction: column;
 }
@@ -74,9 +75,9 @@ h1 {
     display: none;
 }
 
-.sidebar-nav {
-    padding: 2rem 0;
-    flex: 1 1 auto;
+
+.navbar .btn-logout {
+  margin-left: 10px; /* Espaçamento entre o botão e os outros elementos */
 }
 
 a.sidebar-link {
@@ -137,7 +138,7 @@ a.sidebar-link:hover {
     transition: all .2s ease-out;
 }
 :root {
-    --primary-clr: #6A0DAD;
+    --primary-clr: orange;
   }
   * {
     margin: 0;
@@ -176,7 +177,7 @@ a.sidebar-link:hover {
     display: flex;
   
     border-radius: 10px;
-    background-color: #4B0082;
+    background-color: orange;
   }
   .left {
     width: 60%;
