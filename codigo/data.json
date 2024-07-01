@@ -1,1 +1,22 @@
-
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Felipe",
+      "login": "fel",
+      "senha": "123"
+    },
+    {
+      "id": 2,
+      "nome": "Matheus",
+      "login": "mat",
+      "senha": "123"
+    },
+    {
+      "id": 3,
+      "nome": "Jean",
+      "login": "jean",
+      "senha": "123"
+    }
+  ]
+}

@@ -1,4 +1,7 @@
 /* Estilo da página de login */
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 .login-container {
   display: flex;
   justify-content: center;
@@ -18,8 +21,9 @@
 }
 
 .login-box h2 {
+  font-weight: bold;
   margin-bottom: 20px;
-  color: #ff8c42;
+  color: #fd6709;
 }
 
 .login-box form label {

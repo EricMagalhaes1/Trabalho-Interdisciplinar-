@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: rgb(248, 236, 214);
+  color: #ff5400;
 }
 
 header {
-  background-color: #ff8c42;
+  background-color: #ff9f1c;
   color: white;
   padding: 20px 0;
 }
@@ -43,25 +43,16 @@ header nav ul li a {
 }
 
 .hero {
-  background-color: #ffa756;
-  color: white;
+  background-color: rgb(248, 236, 214);
+  color: #ff5400;
   padding: 60px 20px;
   text-align: center;
-}
-
-.hero .btn {
-  background-color: white;
-  color: #ff8c42;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
 }
 
 .features,
 .about {
   padding: 40px 20px;
-  background-color: white;
+  background-color: rgb(248, 236, 214);
 }
 
 .features .container,
@@ -74,7 +65,7 @@ header nav ul li a {
 .about h2 {
   text-align: center;
   margin-bottom: 40px;
-  color: #ff8c42;
+  color: #ff5400;
 }
 
 .features .feature {
@@ -83,13 +74,52 @@ header nav ul li a {
 }
 
 footer {
-  background-color: #333;
+  background-color: #ff9f1c;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 footer .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.quadrados-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.quadrado-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.quadrado {
+  flex: auto;
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.icone {
+  font-size: 50px;
+}
+.azul-escuro {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff9f1c;
+}
+
+.azul-claro {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff6d00;
+}
+
+@media screen and (max-width: 768px) {
+  .quadrados-container {
+    display: block;
+  }
 }
