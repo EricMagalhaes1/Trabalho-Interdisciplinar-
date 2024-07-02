@@ -40,8 +40,9 @@ body {
 .footer a:hover {
   color: #ccc;
 }
-.navbar .btn-logout {
-  margin-left: 10px; /* Espaçamento entre o botão e os outros elementos */
+.navbar #btnlogout {
+  
+  margin-right: 0rem; /* Espaçamento entre o botão e os outros elementos */
 }
 
 @media (max-width: 768px) {
