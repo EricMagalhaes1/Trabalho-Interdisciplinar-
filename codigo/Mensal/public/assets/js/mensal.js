@@ -466,3 +466,41 @@ function convertTime(time) {
  time = timeHour + ":" + timeMin + " " + timeFormat;
  return time;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll('.nav-item a');
+  links.forEach(link => {
+      link.addEventListener('click', function(event) {
+          event.preventDefault();
+          handleNavigation(link.id);
+      });
+  });
+
+  function handleNavigation(linkId) {
+    const firstAccessKey = `firstAccess_${linkId}`;
+    const isFirstAccess = !localStorage.getItem(firstAccessKey);
+    const firstAccessPage = {
+        'link0': '../../Home/home.html',
+        'link1': '#',
+        'link2': '#',
+        'link3': '#',
+        'link4': '../../Relogio/index.html',
+        'link5': '../../Gerenciar_sono/index.html'
+    };
+    const subsequentAccessPage = {
+        'link0': '../../Home/home.html',
+        'link1': '#',
+        'link2': '#',
+        'link3': '#',
+        'link4': '../../Relogio/index.html',
+        'link5': '../../Gerenciar_sono/index3.html'
+    };
+  
+    if (isFirstAccess) {
+        localStorage.setItem(firstAccessKey, 'true');
+        window.location.href = firstAccessPage[linkId];
+    } else {
+        window.location.href = subsequentAccessPage[linkId];
+    }
+  }
+});
