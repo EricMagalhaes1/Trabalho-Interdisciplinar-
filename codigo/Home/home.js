@@ -165,47 +165,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   mostrarTarefasDoDia(tarefas, hoje);
 
-  const links = document.querySelectorAll('.nav-item a');
-  links.forEach(link => {
-      link.addEventListener('click', function(event) {
-          event.preventDefault();
-          handleNavigation(link.id);
-      });
+  const link = document.getElementById("hrefsono");
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    handleNavigation(link.id);
   });
 
   function handleNavigation(linkId) {
     const firstAccessKey = `firstAccess_${linkId}`;
     const isFirstAccess = !localStorage.getItem(firstAccessKey);
     const firstAccessPage = {
-        'link0': '#',
-        'link1': '#',
-        'link2': '#',
-        'link3': '#',
-        'link4': '../Relogio/index.html',
-        'link5': '../Gerenciar_sono/index.html'
+      hrefsono: "../Gerenciar_sono/index.html",
     };
     const subsequentAccessPage = {
-        'link0': '../Home/home.html',
-        'link1': '#',
-        'link2': '#',
-        'link3': '#',
-        'link4': '../Relogio/index.html',
-        'link5': '../Gerenciar_sono/index3.html'
+      hrefsono: "../Gerenciar_sono/index3.html",
     };
-  
+
     if (isFirstAccess) {
-        localStorage.setItem(firstAccessKey, 'true');
-        window.location.href = firstAccessPage[linkId];
+      localStorage.setItem(firstAccessKey, "true");
+      window.location.href = firstAccessPage[linkId];
     } else {
-        window.location.href = subsequentAccessPage[linkId];
+      window.location.href = subsequentAccessPage[linkId];
     }
   }
-
-
 });
-
-
-//     }
-// });
-//
-
