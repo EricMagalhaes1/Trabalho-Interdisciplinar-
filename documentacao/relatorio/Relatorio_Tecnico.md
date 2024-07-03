@@ -228,7 +228,7 @@ Nesse projeto utilizamos da metodologia ágil, como o Scrum e o Design Thinking,
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  [Miro](https://miro.com/app/board/uXjVKUWmBIc=/) | 
 |Repositório de código | GitHub | [GitHub](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-) | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Hospedagem do site | ------ |  https://XXXXXXX.xxxxxxxxx.com | 
 |Protótipo Interativo | Figma | [figma](https://www.figma.com/file/u00fba8uNpozvfNuAMVv6R/Untitled?type=design&node-id=0%3A1&mode=design&t=psjXnv9e5CwXYq3v-1) | 
 
 
@@ -238,14 +238,12 @@ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-s
 O projeto segue a seguinte convenção para o nome de branchs:
 
 > - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
 > - `testing`: versão em testes do software
 > - `dev`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
  
 > - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
 
 
@@ -254,9 +252,56 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O projeto da solução foi implementado com base nos requisitos definidos, na seleção de tecnologias adequadas e de acordo com as metodologias de design e desenvolvimento escolidas. Manutenção e suporte foram continuos durante o desenvolvimento para garantir a adaptabilidade e estabilidade da solução a longo prazo.
+
+## Versão Final
+
+> **Tela de Inicio**
+> 
+> **Tela de Login**
+>
+> **Tela Principal**
+> 
+> **Tela Mensal**
+> 
+> **Tela de Conta**
+> 
+> **Modal de Tarefa**
+> 
+> **Tela de Habitos de Sono**
+>
+> **Modal de Sono**
+> 
+> **Tela de FAQ**
+> 
+> **Tela de Relogio**
+> 
 
 ## Tecnologias Utilizadas
+
+- Linguagens de Desenvolvimento:
+> - HTML, CSS, JavaScript
+ 
+- Bibliotecas e Frameworks
+> - Bootstrap
+
+- Banco de Dados:
+> - Local Storage
+
+- Ferramentas de Desenvolvimento:
+> - Visual Studio Code, NeoVim, LunarVim
+
+- Controle de Versão:
+> - GitHub
+
+- Wireframe e Prototipo Interativo:
+> - Figma
+
+- Processo de Desing Thinkin:
+> - Miro
+
+- Ferramentas de Organização:
+> - Jira, Discord, WhatsApp
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
