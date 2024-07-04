@@ -316,7 +316,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - Ferramentas de Organização:
 > - Jira, Discord, WhatsApp
 
-### [Link Video]()
+### [Link Video](https://youtu.be/MhAN10fpFEo)
 
 ## Arquitetura da solução
 
