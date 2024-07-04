@@ -249,23 +249,45 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 > **Tela de Inicio**
 > 
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_Inicio.png)
+> 
 > **Tela de Login**
->
+> 
+>![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_login.png)
+> 
 > **Tela Principal**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_principal.png)
 > 
 > **Tela Mensal**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_mensal.png)
+>
+> **Modal de Tarefa**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/modal_tarefa.png)
 > 
 > **Tela de Conta**
-> 
-> **Modal de Tarefa**
-> 
-> **Tela de Habitos de Sono**
 >
-> **Modal de Sono**
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_perfil.png)
 > 
+> **Telas de Habitos de Sono**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono1.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono2.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono3.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono4.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono5.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono6.png)
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_sono7.png)
+>
 > **Tela de FAQ**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_faq.png)
 > 
 > **Tela de Relogio**
+>
+> ![image](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/tela_relogio.png)
 > 
 
 ## Tecnologias Utilizadas
