@@ -41,14 +41,9 @@ Os membros do grupo são:
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
 
@@ -228,7 +223,7 @@ Nesse projeto utilizamos da metodologia ágil, como o Scrum e o Design Thinking,
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  [Miro](https://miro.com/app/board/uXjVKUWmBIc=/) | 
 |Repositório de código | GitHub | [GitHub](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-) | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Hospedagem do site | ------ |  https://XXXXXXX.xxxxxxxxx.com | 
 |Protótipo Interativo | Figma | [figma](https://www.figma.com/file/u00fba8uNpozvfNuAMVv6R/Untitled?type=design&node-id=0%3A1&mode=design&t=psjXnv9e5CwXYq3v-1) | 
 
 
@@ -238,102 +233,81 @@ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-s
 O projeto segue a seguinte convenção para o nome de branchs:
 
 > - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
 > - `testing`: versão em testes do software
 > - `dev`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
  
 > - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
-
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O projeto da solução foi implementado com base nos requisitos definidos, na seleção de tecnologias adequadas e de acordo com as metodologias de design e desenvolvimento escolidas. Manutenção e suporte foram continuos durante o desenvolvimento para garantir a adaptabilidade e estabilidade da solução a longo prazo.
+
+## Versão Final
+
+> **Tela de Inicio**
+> 
+> **Tela de Login**
+>
+> **Tela Principal**
+> 
+> **Tela Mensal**
+> 
+> **Tela de Conta**
+> 
+> **Modal de Tarefa**
+> 
+> **Tela de Habitos de Sono**
+>
+> **Modal de Sono**
+> 
+> **Tela de FAQ**
+> 
+> **Tela de Relogio**
+> 
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- Linguagens de Desenvolvimento:
+> - HTML, CSS, JavaScript
+ 
+- Bibliotecas e Frameworks
+> - Bootstrap, JSON, Node.Js, Chart.Js, Email.Js
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+- Banco de Dados:
+> - Local Storage
+
+- Ferramentas de Desenvolvimento:
+> - Visual Studio Code
+
+- Controle de Versão:
+> - GitHub
+
+- Wireframe e Prototipo Interativo:
+> - Figma
+
+- Processo de Desing Thinkin:
+> - Miro
+
+- Ferramentas de Organização:
+> - Jira, Discord, WhatsApp
+
+### [Link Video]()
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+O Local Storage é uma tecnologia que permite que um site ou aplicativo web armazene dados de forma persistente no navegador do usuário. Esses dados ficam disponíveis mesmo após o usuário fechar a janela do navegador ou sair do site.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+![Exemplo de Arquitetura](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/localStorage_esquema.png)
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- [Administração de Recursos Humanos I. Professores: Dante Marciano Girardi, Marcos Baptista Lopez Dalmau](https://ead2.moodle.ufsc.br/pluginfile.php/187635/mod_resource/content/5/Administracao_de_recursos_humanosUAB-3ed-alterado.pdf)
+- [DaVita Saúde](https://www.davita.com.br/servicos-medicos/davita-saude/habitos-saudaveis/)
+- [Boa forma. Psicóloga: Priscila Conte Vieira](https://boaforma.abril.com.br/coluna/priscila-conte-vieira/seja-a-prioridade-na-sua-agenda/mobile)
+- [Estresse e fatores psicossociais. Autoria: Ana Lúcia Pellegrini Pessoa dos Reis, Sônia Regina Pereira Fernandes, Almiralva Ferraz Gomes](https://www.scielo.br/j/pcp/a/8VdqxG3rYm37knTdFCxXqtm)
+- [Rotina: porque é importante manter uma. Autor: Marketing TotalPass](https://blog.totalpass.com.br/bem-estar/rotina-porque-e-importante-manter-uma/)
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 =======
