@@ -45,10 +45,6 @@ Os membros do grupo são:
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
 
@@ -280,9 +276,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 ## Tecnologias Utilizadas
 
 - Linguagens de Desenvolvimento:
-> - HTML:
-> - CSS:
-> - JavaScript:
+> - HTML, CSS, JavaScript
  
 - Bibliotecas e Frameworks
 > - Bootstrap, JSON, Node.Js, Chart.Js, Email.Js
@@ -305,35 +299,20 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - Ferramentas de Organização:
 > - Jira, Discord, WhatsApp
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+### [Link Video]()
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+O Local Storage é uma tecnologia que permite que um site ou aplicativo web armazene dados de forma persistente no navegador do usuário. Esses dados ficam disponíveis mesmo após o usuário fechar a janela do navegador ou sair do site.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![Exemplo de Arquitetura](https://github.com/EricMagalhaes1/Trabalho-Interdisciplinar-/blob/main/documentacao/relatorio/imagens/localStorage_esquema.png)
 
 # Referências
 
-- ......  COLOQUE AQUI O SEU TEXTO ......
+- [Administração de Recursos Humanos I. Professores: Dante Marciano Girardi, Marcos Baptista Lopez Dalmau](https://ead2.moodle.ufsc.br/pluginfile.php/187635/mod_resource/content/5/Administracao_de_recursos_humanosUAB-3ed-alterado.pdf)
+- [DaVita Saúde](https://www.davita.com.br/servicos-medicos/davita-saude/habitos-saudaveis/)
+- [Boa forma. Psicóloga: Priscila Conte Vieira](https://boaforma.abril.com.br/coluna/priscila-conte-vieira/seja-a-prioridade-na-sua-agenda/mobile)
+- [Estresse e fatores psicossociais. Autoria: Ana Lúcia Pellegrini Pessoa dos Reis, Sônia Regina Pereira Fernandes, Almiralva Ferraz Gomes](https://www.scielo.br/j/pcp/a/8VdqxG3rYm37knTdFCxXqtm)
+- [Rotina: porque é importante manter uma. Autor: Marketing TotalPass](https://blog.totalpass.com.br/bem-estar/rotina-porque-e-importante-manter-uma/)
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 =======
