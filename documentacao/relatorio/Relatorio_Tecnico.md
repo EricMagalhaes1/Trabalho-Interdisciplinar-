@@ -41,7 +41,6 @@ Os membros do grupo são:
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -241,10 +240,6 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
  
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `feature`: uma nova funcionalidade precisa ser introduzida
-
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
