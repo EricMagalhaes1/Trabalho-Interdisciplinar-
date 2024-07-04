@@ -1,31 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const tarefas = {
-    tarefas: [
-      { Nome: "Finalizar relatório", data: "2024-06-29", status: "Atrasada" },
-      { Nome: "Aula AEDS 2", data: "2024-06-28", status: "Concluida" },
-      { Nome: "Aula TI02", data: "2024-06-29", status: "Atrasada" },
-      { Nome: "Aula DEW", data: "2024-07-01", status: "Pendente" },
-      { Nome: "Aula TI01", data: "2024-06-30", status: "Pendente" },
-      { Nome: "Finalizar relatório", data: "2024-06-28", status: "Pendente" },
-      {
-        Nome: "Reunião com o cliente",
-        data: "2024-07-02",
-        status: "Concluida",
-      },
-      { Nome: "Revisar código", data: "2024-06-29", status: "Atrasada" },
-      { Nome: "Enviar faturas", data: "2024-06-27", status: "Pendente" },
-      {
-        Nome: "Planejamento do projeto",
-        data: "2024-06-26",
-        status: "Concluida",
-      },
-    ],
-  };
+document.addEventListener("DOMContentLoaded", async function () {
+  const response = await fetch("../data.json");
+  const data = await response.json();
+
+  const tarefas = data.tasks;
 
   function contarTarefasPorStatus(tarefas) {
     const contagem = { Concluida: 0, Pendente: 0, Atrasada: 0 };
 
-    tarefas.tarefas.forEach((tarefa) => {
+    tarefas.forEach((tarefa) => {
       if (tarefa.status in contagem) {
         contagem[tarefa.status]++;
       }
@@ -52,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return data.getDay();
   }
 
-  tarefas.tarefas.forEach((tarefa) => {
+  tarefas.forEach((tarefa) => {
     const diaDaSemana = getDiaDaSemana(tarefa.data);
     contagemTarefas[diaDaSemana]++;
   });
@@ -144,9 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function mostrarTarefasDoDia(tarefas, dataAtual) {
     lista.innerHTML = "";
-    const tarefasDoDia = tarefas.tarefas.filter(
-      (tarefa) => tarefa.data === dataAtual
-    );
+    const tarefasDoDia = tarefas.filter((tarefa) => tarefa.data === dataAtual);
 
     tarefasDoDia.forEach((tarefa) => {
       const li = document.createElement("li");
